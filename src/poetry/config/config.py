@@ -153,6 +153,7 @@ class Config:
                 "always-copy": False,
                 "system-site-packages": False,
                 "no-pip": False,
+                "ignore_in_venv": False
             },
             "use-poetry-python": False,
             "prompt": "{project_name}-py{python_version}",
@@ -380,6 +381,7 @@ class Config:
             "virtualenvs.options.always-copy",
             "virtualenvs.options.no-pip",
             "virtualenvs.options.system-site-packages",
+            "virtualenvs.options.ignore_in_venv",
             "virtualenvs.use-poetry-python",
             "installer.re-resolve",
             "installer.parallel",
